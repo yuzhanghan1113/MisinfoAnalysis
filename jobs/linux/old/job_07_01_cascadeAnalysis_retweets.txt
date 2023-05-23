@@ -1,0 +1,22 @@
+#!/bin/tcsh
+#BSUB -J CA-RT
+#BSUB -o /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/output_job_07_01_cascadeAnalysis_retweets.txt
+#BSUB -e /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/errors_job_07_01_cascadeAnalysis_retweets.txt
+#BSUB -R "span[hosts=1]"
+#BSUB -n 2
+
+setenv PYTHONUSERBASE /usr/local/usrapps/uncghan/.local
+conda activate /usr/local/usrapps/uncghan/my_venv
+
+
+
+#python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_cascadeAnalysis_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201008/rootTweets_selected_factcheckArticleRep_20201010.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201008/retweets/" --absFilename_output_temporal="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/cascadeResults_temporal_retweets.csv" --absFilename_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_cascadeAnalysis_retweets.log"
+
+#python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_cascadeAnalysis_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/rootTweets_selected_factcheckArticleRep_20201111.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/retweets/" --absFilename_output_temporal="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/cascadeResults_temporal_retweets.csv" --absFilename_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_cascadeAnalysis_retweets.log"
+
+python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_cascadeAnalysis_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20210209/rootTweets_selected_factcheckArticleRep_annotated_20210209.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20210209/retweets/" --absFilename_output_temporal="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/cascadeResults_temporal_retweets.csv" --absFilename_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_cascadeAnalysis_retweets.log"
+
+#python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_cascadeAnalysis_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/rootTweets_selected_factcheckArticleRep_test.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/retweets/" --absFilename_output_temporal="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/cascadeResults_temporal_retweets.csv" --absFilename_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_cascadeAnalysis_retweets.log"
+
+
+conda deactivate

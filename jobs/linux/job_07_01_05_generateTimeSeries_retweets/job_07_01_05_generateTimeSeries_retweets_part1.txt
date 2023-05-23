@@ -1,0 +1,19 @@
+#!/bin/tcsh
+#BSUB -J TS-RT_1
+#BSUB -o /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/output_job_07_01_05_generateTimeSeries_retweets_part1.txt
+#BSUB -e /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/errors_job_07_01_05_generateTimeSeries_retweets_part1.txt
+#BSUB -R "span[hosts=1]"
+#BSUB -n 2
+
+setenv PYTHONUSERBASE /usr/local/usrapps/uncghan/.local
+
+conda activate /usr/local/usrapps/uncghan/my_venv
+
+#python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_05_generateTimeSeries_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/rootTweets_selected_factcheckArticleRep_20201111_parts/rootTweets_selected_factcheckArticleRep_20201111_part1.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20201111/retweets/" --absFilename_output_timeSeries="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/timeSeries_retweets_part1.csv" --absFilename_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_05_generateTimeSeries_retweets_part1.log"
+
+python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/07_01_05_generateTimeSeries_retweets.py --absFilename_input_rootTweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20210209/rootTweets_selected_factcheckArticleRep_annotated_20210209.csv" --path_input_rootTweetRetweets="/gpfs_common/share03/uncghan/yhan5/TwitterDataCollection/data/PFN/snapshot/dateRetrieval=20210209/retweets/" --absFilenamePattern_output_timeSeries="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/results/timeSeries_retweets_indexStart=INDEXSTART_indexEnd=INDEXEND.csv" --absFilenamePattern_log="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/logs/07_01_05_generateTimeSeries_retweets_indexStart=INDEXSTART_indexEnd=INDEXEND.log" --index_inputDF_start="0" --index_inputDF_end="100"
+
+
+
+
+conda deactivate

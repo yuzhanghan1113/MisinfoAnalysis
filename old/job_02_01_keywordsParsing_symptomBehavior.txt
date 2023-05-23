@@ -1,0 +1,4 @@
+python 02_01_keywordsParsing_symptomBehavior.py --absFilename_input="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\preprocessed_usOnly_2020-03-14 Coronavirus Tweets.CSV" --path_output="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\"
+
+
+python 02_01_keywordsParsing_symptomBehavior.py --absFilename_input="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\preprocessed_2020-03-14 Coronavirus Tweets.CSV" --path_output="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\"

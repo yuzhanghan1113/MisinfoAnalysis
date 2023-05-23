@@ -1,0 +1,3 @@
+python 02_01_keywordsParsing_symptomBehavior.py --path_input="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\coronavirus-covid19-tweets\\" --path_output="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\keywordsDetected\\coronavirus-covid19-tweets\\"
+
+

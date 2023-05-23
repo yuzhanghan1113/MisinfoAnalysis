@@ -1,0 +1,121 @@
+Exception:
+2020-11-11 00:32:39.320345
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1242167267590385667\\replies_rootTweetID=1242167267590385667.txt'
+
+index_row_rootTweet:
+3
+id_rootTweet:
+1242167267590385667
+index_row_reply:
+0
+id_reply:
+EMPTY
+timestamp:
+EMPTY
+line:
+EMPTY
+Exception:
+2020-11-11 00:32:39.335966
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1247559401998651394\\replies_rootTweetID=1247559401998651394.txt'
+
+index_row_rootTweet:
+7
+id_rootTweet:
+1247559401998651394
+index_row_reply:
+0
+id_reply:
+EMPTY
+timestamp:
+EMPTY
+line:
+EMPTY
+Exception:
+2020-11-11 00:32:39.335966
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1250913947886276608\\replies_rootTweetID=1250913947886276608.txt'
+
+index_row_rootTweet:
+9
+id_rootTweet:
+1250913947886276608
+index_row_reply:
+0
+id_reply:
+EMPTY
+timestamp:
+EMPTY
+line:
+EMPTY
+Exception:
+2020-11-11 00:32:39.335966
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1251257880583434251\\replies_rootTweetID=1251257880583434251.txt'
+
+index_row_rootTweet:
+11
+id_rootTweet:
+1251257880583434251
+index_row_reply:
+0
+id_reply:
+EMPTY
+timestamp:
+EMPTY
+line:
+EMPTY
+Exception:
+2020-11-11 00:32:39.335966
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1251536502372347905\\replies_rootTweetID=1251536502372347905.txt'
+
+index_row_rootTweet:
+12
+id_rootTweet:
+1251536502372347905
+index_row_reply:
+0
+id_reply:
+EMPTY
+timestamp:
+EMPTY
+line:
+EMPTY
+Exception:
+2020-11-11 00:32:41.309569
+track:
+Traceback (most recent call last):
+  File "07_02_cascadeAnalysis_replies.py", line 206, in main
+    file_input_replies = open(absFilename_input_replies, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\vmwareSharedFolder\\TwitterDataCollection\\data\\PFN\\snapshot\\dateRetrieval=20201008\\replies\\rootTweetID=1253111254425706498\\replies_rootTweetID=1253111254425706498.txt'
+
+index_row_rootTweet:
+17
+id_rootTweet:
+1253111254425706498
+index_row_reply:
+1
+id_reply:
+1261305259990962176
+timestamp:
+10080
+line:
+{"created_at": "Fri May 15 14:39:42 +0000 2020", "id": 1261305259990962176, "id_str": "1261305259990962176", "full_text": "@KUSINews How long before twitter shuts this down for \"wrong think\"", "truncated": false, "display_text_range": [10, 67], "entities": {"hashtags": [], "symbols": [], "user_mentions": [{"screen_name": "KUSINews", "name": "KUSI News", "id": 25596174, "id_str": "25596174", "indices": [0, 9]}], "urls": []}, "metadata": {"iso_language_code": "en", "result_type": "recent"}, "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>", "in_reply_to_status_id": 1253073680805969920, "in_reply_to_status_id_str": "1253073680805969920", "in_reply_to_user_id": 25596174, "in_reply_to_user_id_str": "25596174", "in_reply_to_screen_name": "KUSINews", "user": {"id": 2612532894, "id_str": "2612532894", "name": "Freshit", "screen_name": "Freshitupurass", "location": "NONEYOBIZNAZZZ", "description": "FUCK YOU", "url": "https://t.co/akZCZqGYSb", "entities": {"url": {"urls": [{"url": "https://t.co/akZCZqGYSb", "expanded_url": "http://Poolsidebitchfights.com", "display_url": "Poolsidebitchfights.com", "indices": [0, 23]}]}, "description": {"urls": []}}, "protected": false, "followers_count": 6, "friends_count": 75, "listed_count": 0, "created_at": "Tue Jul 08 23:05:29 +0000 2014", "favourites_count": 454, "utc_offset": null, "time_zone": null, "geo_enabled": false, "verified": false, "statuses_count": 15, "lang": null, "contributors_enabled": false, "is_translator": false, "is_translation_enabled": false, "profile_background_color": "000000", "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", "profile_background_tile": false, "profile_image_url": "http://pbs.twimg.com/profile_images/491753939721678848/IFJJVBhY_normal.jpeg", "profile_image_url_https": "https://pbs.twimg.com/profile_images/491753939721678848/IFJJVBhY_normal.jpeg", "profile_banner_url": "https://pbs.twimg.com/profile_banners/2612532894/1406079010", "profile_link_color": "19CF86", "profile_sidebar_border_color": "000000", "profile_sidebar_fill_color": "000000", "profile_text_color": "000000", "profile_use_background_image": false, "has_extended_profile": true, "default_profile": false, "default_profile_image": false, "following": null, "follow_request_sent": null, "notifications": null, "translator_type": "none"}, "geo": null, "coordinates": null, "place": null, "contributors": null, "is_quote_status": false, "retweet_count": 0, "favorite_count": 0, "favorited": false, "retweeted": false, "lang": "en"}
+

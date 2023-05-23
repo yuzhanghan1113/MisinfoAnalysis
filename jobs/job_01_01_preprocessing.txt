@@ -1,0 +1,4 @@
+python 01_01_preprocessing.py --path_input="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\coronavirus-covid19-tweets\\" --path_output="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\coronavirus-covid19-tweets\\" --usOnly="True"
+
+
+python 01_01_preprocessing.py --absFilename_input="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\coronavirus-covid19-tweets\\2020-03-14 Coronavirus Tweets.CSV" --path_output="C:\\vmwareSharedFolder\\TwitterDataAnalysis\\data\\preprocessed\\" --usOnly="False"

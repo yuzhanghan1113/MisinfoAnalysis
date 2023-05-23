@@ -1,0 +1,12 @@
+#!/bin/tcsh
+#BSUB -J 05_01_mergeAllTemporalFiles
+#BSUB -o /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/output_job_05_01_mergeAllTemporalFiles.txt
+#BSUB -e /gpfs_common/share03/uncghan/yhan5/bsub/TwitterDataAnalysis/errors_job_05_01_mergeAllTemporalFiles.txt
+#BSUB -R "span[hosts=1]"
+#BSUB -n 2
+
+conda activate /usr/local/usrapps/uncghan/my_venv
+
+python /usr/local/usrapps/uncghan/TwitterDataAnalysis/programs/05_01_mergeAllTemporalFiles.py --path_base="/gpfs_common/share03/uncghan/yhan5/TwitterDataAnalysis/programs/FalseNews_Code/FalseNews_Code/data/temporal/" --list_tweetIDs_toMerge="1246159197621727234 1239336564334960642 1240682713817976833 1261326944492281859 1262482651333738500 1247287993095897088 1256641587708342274 1268269994074345473 1269111354520211458 1268155500753027073 1269320689003216896 1269077273770156032 1268346742296252418"
+
+conda deactivate
